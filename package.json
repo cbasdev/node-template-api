@@ -1,0 +1,37 @@
+{
+  "name": "build-template",
+  "version": "1.0.0",
+  "description": "Default template with good practices in Node Js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js --exec babel-node --presets @babel/preset-env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbasdev/node-build-template.git"
+  },
+  "author": "cbasdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbasdev/node-build-template/issues"
+  },
+  "homepage": "https://github.com/cbasdev/node-build-template#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "body-parser": "^1.19.0",
+    "cluster": "^0.7.7",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "v8": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "nodemon": "^2.0.13"
+  }
+}

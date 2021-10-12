@@ -1,0 +1,24 @@
+{
+  "ENV": "development",
+
+  "onlyCore": true,
+  "username": "root",
+  "password": "",
+  "database": "name-database",
+  "sequelizeOpts": {
+    "port": 3307,
+    "dialect": "mysql",
+    "logging": false,
+    "timezone": "-05:00",
+    "dialectOptions": {},
+    "pool": {
+      "max": 10,
+      "min": 0,
+      "acquire": 100000
+    }
+  },
+
+  "defaultLang": "en",
+  "domain": "localhost",
+  "port": 3000
+}
